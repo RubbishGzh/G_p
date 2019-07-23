@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>register_servlet</servlet-name>
+    <servlet-class>com.servlet.register_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>login_servlet</servlet-name>
+    <servlet-class>com.servlet.login_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pay_add_servlet</servlet-name>
+    <servlet-class>com.servlet.pay_add_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>register_yz_servlet</servlet-name>
+    <servlet-class>com.servlet.register_yz_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tuichu_servlet</servlet-name>
+    <servlet-class>com.servlet.tuichu_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fenye_servlet</servlet-name>
+    <servlet-class>com.servlet.fenye_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>product_servlet</servlet-name>
+    <servlet-class>com.servlet.product_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addcart_servlet</servlet-name>
+    <servlet-class>com.servlet.addcart_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pay_servlet</servlet-name>
+    <servlet-class>com.servlet.pay_servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>productDetail_servlet</servlet-name>
+    <servlet-class>com.servlet.productDetail_servlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>register_servlet</servlet-name>
+    <url-pattern>/register_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login_servlet</servlet-name>
+    <url-pattern>/login_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pay_add_servlet</servlet-name>
+    <url-pattern>/pay_add_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register_yz_servlet</servlet-name>
+    <url-pattern>/register_yz_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tuichu_servlet</servlet-name>
+    <url-pattern>/tuichu_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fenye_servlet</servlet-name>
+    <url-pattern>/fenye_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>product_servlet</servlet-name>
+    <url-pattern>/product_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addcart_servlet</servlet-name>
+    <url-pattern>/addcart_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pay_servlet</servlet-name>
+    <url-pattern>/pay_servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productDetail_servlet</servlet-name>
+    <url-pattern>/productDetail_servlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

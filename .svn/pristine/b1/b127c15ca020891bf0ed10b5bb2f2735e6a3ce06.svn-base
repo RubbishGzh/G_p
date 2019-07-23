@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="G_p"
+  id="myeclipse.1545618957701"
+  context-root="/G_p"
+  j2ee-spec="6.0"
+  archive="G_p.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

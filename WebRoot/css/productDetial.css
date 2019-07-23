@@ -1,0 +1,22 @@
+.product{
+	border-top: 2px solid darkmagenta;
+	padding-top: 20px;
+}
+
+
+.right{
+ padding: 30px;
+
+}
+.detail{
+	width: 1000px;
+	margin: 20px auto;
+}
+input{
+	margin-top: 20px;
+	color: white;
+	background: darkmagenta;
+	width: 100px;
+	height: 40px;
+	/*padding: 50px;*/
+}
